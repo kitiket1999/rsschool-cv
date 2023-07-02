@@ -1,46 +1,60 @@
-#Mikhailevich Silvestr
+# Mikhailevich Silvestr
 
-##Photo
-![Me](me.jpg)
-##Contacts:
-    - **Phone:** _+37525 913-00-11_
-    - **telegram:** _sv\_telegram_
-    - **Discord:** _kitiket1999_
-    - **GitHub:** _kitiket1999_
+![Me](me-200px.jpg)
 
-##About myself:
-    >I want to learn JS, to realise my ideas.
-    >I like cleanliness and order in house and in life, but I like to do spontaneous things too.
-    >Being fair is my main principle.
-    >Like to wash dishes 🤡
-    >I work as a cook at night and try to develop my project.
+## Contacts:
 
-##Skills:
-    >I'm a good cook.
-    >I can work with wood and artificial stone,
-    >do simple repairs.
-    >I easily find a common language with any people.
-    >I can try to solve problem or search for decision for many hours in a row, but 
-    >I don't think that it is a profitable approach) I dont like to ask for help.
+- **Phone:** &nbsp; ```+37525 913-00-11```
 
-    >I can copy or create simple project, using html,css,js,php,mysql
+- **telegram:**&nbsp; [sv_telegram](https://t.me//sv_telegram)
 
+- **Discord:**&nbsp; ```kitiket1999```
 
-##Code example:
+- **GitHub:**&nbsp; [kitiket1999](https://github.com/kitiket1999)
+
+## About myself:
+
+  
+
+**📖  &nbsp; I want to learn JS, to realise my ideas.\
+✨ &nbsp; I like cleanliness and order in house and in life, but I like to do spontaneous things too.\
+⚖️ &nbsp; Being fair is my main principle.\
+ &nbsp; Like to wash dishes. \
+&nbsp;🔥 &nbsp; I work as a cook at night and try to develop my project.**
+
+## Skills:
+
+  
+
+>I'm a good cook.
+>I can work with wood and artificial stone,
+>do simple repairs.
+>I easily find a common language with any people.
+>I can try to solve problem or search for decision for many hours in a row, but
+>I don't think that it is a profitable approach) I dont like to ask for help.
+
+>I can copy or create simple project, using html,css,js,php,mysql
+
+## Code example:
+
+  
+
 [Codepen](https://codepen.io/kitiket/pen/gOQWVQv)
+
 ```
+
 <div>
-  <video class="video" muted autoplay pleload loop playsinline="true"></video>
-  <video class="video" muted autoplay pleload loop playsinline="true"></video>
-  <video class="video" muted autoplay pleload loop playsinline="true"></video>
+	<video class="video" muted autoplay pleload loop playsinline="true"></video>
+	<video class="video" muted autoplay pleload loop playsinline="true"></video>
+	<video class="video" muted autoplay pleload loop playsinline="true"></video>
 </div>
 
 <style type="text/css">
 	body {
-  		background-color: black;
+		background-color: black;
 	}
 	div {
-	  	width: 100%;
+		width: 100%;
 		height: 100%;
 		display: flex;
 		flex-direction: row;
@@ -56,6 +70,8 @@
 	}
 </style>
 
+  
+
 <script type="text/javascript">
 	let half_link = 'https://iloveyou.cards/RSSchool/media/'
 	let video_class = document.getElementsByClassName('video');
@@ -63,50 +79,58 @@
 	video_class[1].src = half_link + 'crunchy.mp4';
 	video_class[2].src = half_link + 'hoseobi.mp4';
 
-	function mute_all() {
-		for (i=0; i < video_class.length; i++) {
-			video_class[i].muted = true;
-		};	
-	}
+function mute_all() {
+	for (i=0; i < video_class.length; i++) {
+		video_class[i].muted = true;
+	};
+}
 
-	(function () {
-		for (i=0; i < video_class.length; i++) {
-			video_class[i].addEventListener('click', event => {
-				if(event.target.muted) {
-					mute_all()
-					event.target.muted = false;
-					event.target.currentTime = 0;
-				} else {
-					event.target.muted = true;
-				}
-			})
-		}
-	})()
+(function () {
+	for (i=0; i < video_class.length; i++) {
+		video_class[i].addEventListener('click', event => {
+			if(event.target.muted) {
+				mute_all()
+				event.target.muted = false;
+				event.target.currentTime = 0;
+			} else {
+				event.target.muted = true;
+			}
+		})
+	}
+})()
 </script>
 ```
 
-##Experience
-<https://eurocomfort.by> 
-    **_Download site structure from side project with wget._** 
-    **Fix mobile devices adaptation (after using wget).**
-    **Add phone numbers, social networks links, animations.** 
-    **Add sliders, popups with extra information by clicking all positions.**
-    **Create order calculation form.**
-    **Implement function of sending all forms data to telegram.**
-<https://earnex.ru>
-    **Totally my idea. All you find here is my author’s work😂**
-<https://popusk.ru>
-    **This project is addition for my twitch stream.** 
-    **All blocks and elements created for integration into broadcast.**
-    **Subject: competition between viewers by requests.**
-    _\*There is no SESSIONS.\*_
-<https://iloveyou.cards/create>
-    **Works in demo mode. Most of functions are disabled now.**
-    **Subject: virtual gift card creation.**
+## Experience
 
-##Education 
-    - Self education
+- <https://eurocomfort.by>
+**_&nbsp; Download site structure from side project with wget.\
+&nbsp; Fix mobile devices adaptation (after using wget).\
+&nbsp; Add phone numbers, social networks links, animations.\
+&nbsp; Add sliders, popups with extra information by clicking all positions.\
+&nbsp; Create order calculation form.\
+&nbsp; Implement function of sending all forms data to telegram._**
 
-##Languages
-    - English - A1
-    - Russian - Native
+- <https://earnex.ru>
+**_&nbsp; Totally my idea. All you find here is my author’s work_** 😂
+
+- <https://popusk.ru>
+**_&nbsp; This project is addition for my twitch stream.\
+&nbsp; All blocks and elements created for integration into broadcast.\
+&nbsp; Subject: competition between viewers by requests._**
+&nbsp;_There is no SESSIONS._
+
+- <https://iloveyou.cards/create>
+**_&nbsp; Works in demo mode. Most of functions are disabled now.\
+&nbsp; Subject: virtual gift card creation._**
+
+  
+
+## Education
+
+- Self education
+
+## Languages
+
+- English - A1
+- Russian - Native
