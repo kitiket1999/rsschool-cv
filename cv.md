@@ -97,7 +97,7 @@ function mute_all() {
 
 ## Experience
 
-- <https://eurocomfort.by>\
+- <https://eurocomfort.by>&nbsp;\
 **_&nbsp; Download site structure from side project with wget.\
 &nbsp; Fix mobile devices adaptation (after using wget).\
 &nbsp; Add phone numbers, social networks links, animations.\
@@ -105,16 +105,16 @@ function mute_all() {
 &nbsp; Create order calculation form.\
 &nbsp; Implement function of sending all forms data to telegram._**
 
-- <https://earnex.ru>\
+- <https://earnex.ru>&nbsp;\
 **_&nbsp; Totally my idea. All you find here is my author’s work_** 😂
 
-- <https://popusk.ru>\
+- <https://popusk.ru>&nbsp;\
 **_&nbsp; This project is addition for my twitch stream.\
 &nbsp; All blocks and elements created for integration into broadcast.\
-&nbsp; Subject: competition between viewers by requests._**
+&nbsp; Subject: competition between viewers by requests._**\
 &nbsp;_There is no SESSIONS._
 
-- <https://iloveyou.cards/create>\
+- <https://iloveyou.cards/create>&nbsp;\
 **_&nbsp; Works in demo mode. Most of functions are disabled now.\
 &nbsp; Subject: virtual gift card creation._**
 
