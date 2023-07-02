@@ -19,21 +19,18 @@
 **📖  &nbsp; I want to learn JS, to realise my ideas.\
 ✨ &nbsp; I like cleanliness and order in house and in life, but I like to do spontaneous things too.\
 ⚖️ &nbsp; Being fair is my main principle.\
- &nbsp; Like to wash dishes. \
+🤡 &nbsp; Like to wash dishes. \
 &nbsp;🔥 &nbsp; I work as a cook at night and try to develop my project.**
 
 ## Skills:
 
-  
-
->I'm a good cook.
->I can work with wood and artificial stone,
->do simple repairs.
->I easily find a common language with any people.
->I can try to solve problem or search for decision for many hours in a row, but
->I don't think that it is a profitable approach) I dont like to ask for help.
-
->I can copy or create simple project, using html,css,js,php,mysql
+- I'm a good cook.
+- I can work with wood and artificial stone, do simple repairs.
+- I'm a people's person.
+- I can try to solve problem or search for decision for many hours in a row, but
+I don't think that it is a profitable approach) I dont like to ask for help.
+<br/>
+- I can copy or create simple project, using html,&nbsp;css,&nbsp;js,&nbsp;php,&nbsp;mysql
 
 ## Code example:
 
@@ -44,9 +41,9 @@
 ```
 
 <div>
-	<video class="video" muted autoplay pleload loop playsinline="true"></video>
-	<video class="video" muted autoplay pleload loop playsinline="true"></video>
-	<video class="video" muted autoplay pleload loop playsinline="true"></video>
+    <video class="video" muted autoplay pleload loop playsinline="true"></video>
+    <video class="video" muted autoplay pleload loop playsinline="true"></video>
+    <video class="video" muted autoplay pleload loop playsinline="true"></video>
 </div>
 
 <style type="text/css">
@@ -69,8 +66,6 @@
 		cursor: pointer;
 	}
 </style>
-
-  
 
 <script type="text/javascript">
 	let half_link = 'https://iloveyou.cards/RSSchool/media/'
@@ -123,8 +118,6 @@ function mute_all() {
 - <https://iloveyou.cards/create>
 **_&nbsp; Works in demo mode. Most of functions are disabled now.\
 &nbsp; Subject: virtual gift card creation._**
-
-  
 
 ## Education
 
