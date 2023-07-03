@@ -116,7 +116,8 @@ function mute_all() {
 
 - <https://iloveyou.cards/create>&nbsp;\
 **_&nbsp; Works in demo mode. Most of functions are disabled now.\
-&nbsp; Subject: virtual gift card creation._**
+&nbsp; Subject: virtual gift card creation.
+&nbsp; Most of features works correctly only on mobile devices._**
 
 ## Education
 
