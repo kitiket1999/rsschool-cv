@@ -7,7 +7,7 @@ html {
 }
 
 a {
-  text-decoration: none;
+  text-decoration-line: none;
 }
 
 body {
@@ -299,7 +299,7 @@ footer div {
 	left: 50%;
   transform: translate(-50%, -50%);
 }
-@-webkit-keyframes animation_tada {
+@keyframes animation_tada {
   0% {
       transform: scale3d(1,1,1);
   }
