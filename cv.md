@@ -1,6 +1,6 @@
 # Mikhailevich Silvestr
 
-![Me](me-200px.jpg)
+![Me](assets/img/me-200px.jpg)
 
 ## Contacts:
 
@@ -112,9 +112,9 @@ function mute_all() {
 **_&nbsp; This project is addition for my twitch stream.\
 &nbsp; All blocks and elements created for integration into broadcast.\
 &nbsp; Subject: competition between viewers by requests._**\
-&nbsp;_There is no SESSIONS._
+&nbsp;_There is no login SESSIONS._
 
-- <https://iloveyou.cards/create>&nbsp;\
+- <https://.../create>&nbsp;\
 **_&nbsp; Works in demo mode. Most of functions are disabled now.\
 &nbsp; Subject: virtual gift card creation.\
 &nbsp; Most of features works correctly only on mobile devices._**
