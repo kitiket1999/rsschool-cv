@@ -1,12 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>cv</title>
 </head>
-<body>
-    hi
+
+<body>   
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="#expirience" class="nav-link">Expirience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="profile-header" id="profileHeader">
+        <div class="profile-header-avatar">
+          <div class="flipper">
+            <div class="profile-header-avatar-front"></div>
+            <div class="profile-header-avatar-back"></div>
+          </div>
+        </div>
+        <div>
+          <h1 class="section-title">Mikhailevich Silvestr</h1>
+          <div class="profile-header-info">
+            <img src="assets/img/location.png" alt="locationImage" width="25" height="25">
+            <p>Minsk</p>
+          </div>
+        </div>
+    </div>
+    <div class="container profile-body">
+      <section class="section contacts" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul>
+          <li>
+            <img src="assets/img/social/phone.png" alt="phone">
+            <a href="tel:+74951234567">+375(25)913-00-11</a>
+          </li>
+          <li>
+            <img src="assets/img/social/telegram2.png" alt="telegram">
+            <a href="https://t.me/sv_telegram" target="_blank">sv_telegram</a>
+          </li>
+          <li>
+            <img src="assets/img/social/discord.png" alt="discord">
+            <p>kitiket1999</p>
+          </li>
+          <li>
+            <img src="assets/img/social/github3.png" alt="github">
+            <a href="https://github.com/kitiket1999" target="_blank">kitiket1999</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <ul>
+          <li>
+            <p>📖 I want to learn JS, to realise my ideas.</p>
+          </li>
+          <li>
+            <p>✨ I like cleanliness and order in house and in life, but I like to do spontaneous things too.</p>
+          </li>
+          <li>
+            <p>⚖️ Being fair is my main principle.</p>
+          </li>
+          <li>
+            <p>🤡 Like to wash dishes.</p>
+          </li>
+          <li>
+            <p>🔥 &nbsp;I work as a cook at night and try to develop my project.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>
+            <p>I’m a good cook.</p>
+          </li>
+          <li>
+            <p>I can work with wood and artificial stone, do simple repairs.</p>
+          </li>
+          <li>
+            <p>I’m a people’s person.</p>
+          </li>
+          <li>
+            <p>I can try to solve problem or search for decision for many hours in a row, but
+              I don’t think that it is a profitable approach) I dont like to ask for help.</p>
+          </li>
+          <li>
+            <p>I can copy or create simple project, using html, css, js, php, mysql.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="section code" id="code">
+        <h2 class="section-title">Code example</h2>
+        <div class="code-content">
+        <a href="https://codepen.io/kitiket/pen/gOQWVQv" target="_blank">✏️ Codepen</a> 
+        <pre>
+          <code>
+let half_link = 'https://iloveyou.cards/RSSchool/media/'
+let video_class = document.getElementsByClassName('video');
+video_class[0].src = half_link + 'pupipu.mp4';
+video_class[1].src = half_link + 'crunchy.mp4';
+video_class[2].src = half_link + 'hoseobi.mp4';
+
+function mute_all() {
+  for (i=0; i &lt; video_class.length; i++) {
+    video_class[i].muted = true;
+  };
+}
+
+(function () {
+  for (i=0; i &lt; video_class.length; i++) {
+    video_class[i].addEventListener('click', event => {
+      if(event.target.muted) {
+        mute_all()
+        event.target.muted = false;
+        event.target.currentTime = 0;
+      } else {
+        event.target.muted = true;
+      }
+    })
+  }
+})()
+          </code>
+        </pre>
+      </div>
+      </section>
+      <section class="section expirience" id="expirience">
+        <h2 class="section-title">Expirience</h2>
+        <ul>
+          <li>
+            <a href="https://eurocomfort.by" target="_blank">eurocomfort.by</a> <br>
+            <p>
+              Download site structure from side project with wget.
+              Fix mobile devices adaptation (after using wget).
+              Add phone numbers, social networks links, animations.
+              Add sliders, popups with extra information by clicking all positions.
+              Create order calculation form.
+              Implement function of sending all forms data to telegram.
+            </p>
+          </li>
+          <li>
+            <a href="https://earnex.ru" target="_blank">earnex.ru</a> <br>
+            <p>
+              Totally my idea. All you find here is my author’s work 😂
+            </p>
+          </li>
+          <li>
+            <a href="https://popusk.ru" target="_blank">popusk.ru</a> <br>
+            <p>
+              This project is addition for my twitch stream.
+              All blocks and elements created for integration into broadcast.
+              Subject: competition between viewers by requests.
+              There is no login SESSIONS.
+            </p>
+          </li>
+          <li>
+            <a onclick="alert('Пока не хотел бы показывать&#41;')" href="#expirience">https://</a> <br>
+            <p>
+              Works in demo mode. Most of functions are disabled now.
+              Subject: virtual gift card creation.
+              Most of features works correctly only on mobile devices.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="section education">
+        <h2 class="section-title" id="education">Education</h2>
+        <ul>
+          <li>
+            <p>Self-education</p>
+            <div>
+              <img src="assets/img/resources/learnjavascript.png" alt="learnjavascript.png">
+              <a href="https://learn.javascript.ru/">learn.javascript.ru</a>
+            </div>
+            <div>
+              <img src="assets/img/resources/codepen.png" alt="codepen.png">
+              <a href="https://codepen.io/" target="_blank">codepen.io</a>
+            </div>
+          </li>
+        </ul>
+        <h2 class="section-title" id="languages">Languages</h2>
+        <ul>
+          <li>
+            English - A1
+          </li>
+          <li>
+            Russian - Native
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p>&#169;2023</p>
+      <a href="https://github.com/kitiket1999" target="_blank">
+        <div class="footer-github">
+          <img width="100" height="100" src="assets/img/social/github-violet.png" alt="github-violet-logo">
+          <p>kitiket1999</p>
+        </div>
+      </a>
+      <a href="https://rs.school/js/" target="_blank">
+        <img class="footer-rss-logo" width="100" height="80" src="assets/img/rs-js-kovalev.png" alt="rs-js-kovalev">
+      </a>
+    </div>
+  </footer>   
 </body>
+
 </html>
