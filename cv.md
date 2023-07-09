@@ -1,6 +1,6 @@
 # Mikhailevich Silvestr
 
-![Me](me-200px.jpg)
+![Me](assets/img/me-200px.jpg)
 
 ## Contacts:
 
