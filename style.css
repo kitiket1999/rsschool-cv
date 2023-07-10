@@ -8,6 +8,8 @@ html {
 
 a {
   text-decoration-line: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 body {
