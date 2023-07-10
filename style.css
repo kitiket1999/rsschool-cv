@@ -173,7 +173,7 @@ header {
 }
 
 @media (max-width: 768px) {
-  .section {
+  body .section {
     width: 100%;
   }
 }
