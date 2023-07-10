@@ -229,6 +229,7 @@ section#skills p {
 }
 .code pre {
   margin: 0;
+  overflow: auto;
 }
 code {
   color: #9fcefe;
