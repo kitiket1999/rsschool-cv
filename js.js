@@ -1,5 +1,8 @@
 let kovalev = document.getElementById('kovalev');
 kovalev.onmouseover = function(event) {
+  if (window.innerWidth < 770) {
+    return;
+  }
   console.log('tap')
   //kovalev.classList.add('kovalev-zoom');
   kovalev.style.width = document.documentElement.clientWidth*0.8 + 'px';
@@ -8,6 +11,9 @@ kovalev.onmouseover = function(event) {
   kovalev.style.left = document.documentElement.clientWidth*0.1 + 'px';//document.documentElement.clientWidth/4 + 'px';
 };
 kovalev.onmouseout = function(event) {
+  if (window.innerWidth < 770) {
+    return;
+  }
   console.log('tap2')
   //kovalev.classList.remove('kovalev-zoom');
   kovalev.style.width = "131px";
