@@ -176,6 +176,9 @@ header {
   body .section {
     width: 100%;
   }
+  .profile-header-info {
+    justify-content: center;
+  }
 }
 
 .section-title {
@@ -262,8 +265,19 @@ code {
 .education img {
   width: 29px;
 }
+
 footer {
   background-color: #161616;
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column-reverse;
+      gap: 10px;
+    }
+    .container p, a {
+      transform: scale(0.8);
+    }
+  }
 }
 footer p {
   font-family: Comfortaa-Bold;
