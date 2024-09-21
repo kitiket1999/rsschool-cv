@@ -123,11 +123,11 @@ header {
 	backface-visibility: hidden;
 }
 .profile-header-avatar-front {
-  background-image: url(assets/img/me.jpg);
+  background-image: url(assets/img/me2.jpg);
 	transform: rotateY(0deg);
 }
 .profile-header-avatar-back {
-  background-image: url(assets/img/me2.jpg);
+  background-image: url(assets/img/me.jpg);
 	transform: rotateY(180deg);
 }
 .profile-header-avatar:hover .flipper {
