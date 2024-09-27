@@ -257,7 +257,7 @@ code {
 
 .education div {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   gap: 11px;
 
   padding-top: 5px;
