@@ -244,6 +244,7 @@ code {
 /* scrollbar */
 pre::-webkit-scrollbar {
   width: 10px;
+  height: 10px;
   background-color: #1e1e1e;
 }
 
