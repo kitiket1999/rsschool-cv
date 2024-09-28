@@ -236,6 +236,7 @@ section#skills p {
   margin: 0;
   overflow: auto;
   max-height: 400px;
+  scrollbar-width: thin;
 }
 code {
   color: #9fcefe;
@@ -243,18 +244,21 @@ code {
 /* scrollbar */
 pre::-webkit-scrollbar {
   width: 10px;
-  background-color: #f9f9fd;
+  background-color: #1e1e1e;
 }
 
 pre::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: #18aaaa;
+  background-color: #9fcefe;
 }
 
 pre::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
   border-radius: 10px;
-  background-color: #f9f9fd;
+  background-color: #1e1e1e;
+}
+pre::-webkit-scrollbar-corner {
+  background-color: #1e1e1e;
 }
 
 .expirience li {
