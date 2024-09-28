@@ -110,7 +110,8 @@
       <div class="code-content">
         <a href="https://codepen.io/kitiket/pen/mdNJLYV" target="_blank">✏️ Codepen</a> 
         <pre>
-          <code>mysqli_query($conn, 'set names utf8');
+          <code>
+mysqli_query($conn, 'set names utf8');
 $sql = "SELECT bet, earnings, date FROM aviator_bet_tracker ORDER BY id DESC LIMIT 11";
 $query = $conn->query($sql);
 $result = $query->fetch_all(MYSQLI_ASSOC);
