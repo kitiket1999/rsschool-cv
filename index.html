@@ -112,7 +112,7 @@
         <pre>
           <code>
             mysqli_query($conn, 'set names utf8');
-            $sql = "SELECT * FROM aviator_bet_tracker ORDER BY id DESC LIMIT 11";
+            $sql = "SELECT bet, earnings, date FROM aviator_bet_tracker ORDER BY id DESC LIMIT 11";
             $query = $conn->query($sql);
             $result = $query->fetch_all(MYSQLI_ASSOC);
             $response = [
@@ -120,7 +120,7 @@
             ];
             echo json_encode($response);
             ////////////////////////////
-            let bet,result,resultClass,earnings,date,last_result;
+            let bet, result, resultClass, earnings, date, last_result;
             $.ajax({
               type: 'POST',
               url: 'https://popusk.ru/casino/php/bet_tracker_data.php',
