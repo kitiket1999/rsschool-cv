@@ -111,59 +111,59 @@
         <a href="https://codepen.io/kitiket/pen/mdNJLYV" target="_blank">✏️ Codepen</a> 
         <pre>
           <code>
-            mysqli_query($conn, 'set names utf8');
-            $sql = "SELECT bet, earnings, date FROM aviator_bet_tracker ORDER BY id DESC LIMIT 11";
-            $query = $conn->query($sql);
-            $result = $query->fetch_all(MYSQLI_ASSOC);
-            $response = [
-              'data' => $result,
-            ];
-            echo json_encode($response);
-            ////////////////////////////
-            let bet, result, resultClass, earnings, date, last_result;
-            $.ajax({
-              type: 'POST',
-              url: 'https://popusk.ru/casino/php/bet_tracker_data.php',
-              success: function (data) {
-                let dynamicStr = '';
-                data = JSON.parse(data); 
-            
-                for (var i = data['data'].length-1; i != -1; i--)  {
-                  let item = data['data'][i];
-                  bet = item.bet;
-                  // console.log(last_result);
-                  if (Number(item.earnings) == last_result) {
-                    continue;
-                  } else if (Number(item.earnings) > last_result) {
-                    result = 'выигрыш';
-                    resultClass = 'win';
-                  } else {
-                    result = 'проигрыш';
-                    resultClass = 'lose';
-                  };
-                  last_result = Number(item.earnings);
-                  earnings = item.earnings;
-                  date = item.date;
-                  let betStr = document.createElement('span');
-                  let resultStr = document.createElement('span');
-                  let earningsStr = document.createElement('span');
-                  let dateStr = document.createElement('span');
-                  betStr.innerHTML = `<span>${bet}</span>`;
-                  resultStr.innerHTML = `<span class="${resultClass}">${result}</span>`;
-                  earningsStr.innerHTML = `<span>${earnings}</span>`;
-                  dateStr.innerHTML = `<span>${date}</span>`;
-                  if (i != 10) {
-                    $('.col-title')[0].after(betStr);
-                    $('.col-title')[1].after(resultStr);
-                    $('.col-title')[2].after(earningsStr);
-                    $('.col-title')[3].after(dateStr);  
-                  }
-                }
-              },
-              error: function() { 
-                console.log('');
-              }
-            });
+mysqli_query($conn, 'set names utf8');
+$sql = "SELECT bet, earnings, date FROM aviator_bet_tracker ORDER BY id DESC LIMIT 11";
+$query = $conn->query($sql);
+$result = $query->fetch_all(MYSQLI_ASSOC);
+$response = [
+  'data' => $result,
+];
+echo json_encode($response);
+////////////////////////////
+let bet, result, resultClass, earnings, date, last_result;
+$.ajax({
+  type: 'POST',
+  url: 'https://popusk.ru/casino/php/bet_tracker_data.php',
+  success: function (data) {
+    let dynamicStr = '';
+    data = JSON.parse(data); 
+
+    for (var i = data['data'].length-1; i != -1; i--)  {
+      let item = data['data'][i];
+      bet = item.bet;
+      // console.log(last_result);
+      if (Number(item.earnings) == last_result) {
+        continue;
+      } else if (Number(item.earnings) > last_result) {
+        result = 'выигрыш';
+        resultClass = 'win';
+      } else {
+        result = 'проигрыш';
+        resultClass = 'lose';
+      };
+      last_result = Number(item.earnings);
+      earnings = item.earnings;
+      date = item.date;
+      let betStr = document.createElement('span');
+      let resultStr = document.createElement('span');
+      let earningsStr = document.createElement('span');
+      let dateStr = document.createElement('span');
+      betStr.innerHTML = `<span>${bet}</span>`;
+      resultStr.innerHTML = `<span class="${resultClass}">${result}</span>`;
+      earningsStr.innerHTML = `<span>${earnings}</span>`;
+      dateStr.innerHTML = `<span>${date}</span>`;
+      if (i != 10) {
+        $('.col-title')[0].after(betStr);
+        $('.col-title')[1].after(resultStr);
+        $('.col-title')[2].after(earningsStr);
+        $('.col-title')[3].after(dateStr);  
+      }
+    }
+  },
+  error: function() { 
+    console.log('');
+  }
+});
           </code>
         </pre>
       </div>
