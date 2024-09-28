@@ -235,9 +235,26 @@ section#skills p {
 .code-content pre {
   margin: 0;
   overflow: auto;
+  max-height: 400px;
 }
 code {
   color: #9fcefe;
+}
+/* scrollbar */
+pre::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f9f9fd;
+}
+
+pre::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #18aaaa;
+}
+
+pre::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background-color: #f9f9fd;
 }
 
 .expirience li {
