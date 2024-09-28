@@ -229,10 +229,10 @@ section#skills p {
 .code-content {
   margin: 0 0 0 25px;
 }
-.code a {
+.code-content a {
   color: #ffb900;
 }
-.code pre {
+.code-content pre {
   margin: 0;
   overflow: auto;
 }
