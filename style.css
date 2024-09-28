@@ -236,7 +236,7 @@ section#skills p {
   margin: 0;
   overflow: auto;
   max-height: 400px;
-  scrollbar-width: thin;
+/*   scrollbar-width: thin; */
 }
 code {
   color: #9fcefe;
